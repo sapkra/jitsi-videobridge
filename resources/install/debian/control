@@ -11,6 +11,8 @@ Package: jitsi-videobridge
 Architecture: any
 Pre-Depends: openjdk-8-jre-headless | openjdk-11-jre-headless
 Depends: ${misc:Depends}, procps
+Replaces: jitsi-videobridge (<= 1120-1)
+Breaks: jitsi-videobridge (<= 1120-1)
 Description: WebRTC compatible Selective Forwarding Unit (SFU)
  Jitsi Videobridge is a WebRTC compatible Selective Forwarding Unit
  (SFU) for multiuser video communication. It is an essential part
