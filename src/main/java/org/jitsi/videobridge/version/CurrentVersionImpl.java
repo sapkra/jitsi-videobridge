@@ -33,7 +33,7 @@ public class CurrentVersionImpl
      * changes when a relatively extensive set of new features and possibly
      * rearchitecturing have been applied to the Jitsi Videobridge.
      */
-    public static final int VERSION_MAJOR = 0;
+    public static final int VERSION_MAJOR = 2;
 
     /**
      * Returns the version minor of the current application version. In an
@@ -41,7 +41,7 @@ public class CurrentVersionImpl
      * number changes after adding enhancements and possibly new features to a
      * given Jitsi Videobridge version.
      */
-    public static final int VERSION_MINOR = 1;
+    public static final int VERSION_MINOR = 0;
 
     /**
      * The version prerelease ID of the current application version.
